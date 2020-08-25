@@ -14,7 +14,7 @@ fi
 
 #cp -r $HOME/Library/Application\ Support/Code/User/snippets .
 
-code --list-extensions --show-versions >> ../..vscode/extensions.txt
+#code --list-extensions --show-versions >> ~/vscode/extensions.txt
 
 #copy other dot files
 cp ~/.zshrc .
