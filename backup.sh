@@ -19,7 +19,7 @@ code --list-extensions --show-versions >> ../..vscode/extensions.txt
 #copy other dot files
 cp ~/.zshrc .
 cp ~/.vimrc .
-cp ~/.vscode .
+cp -r ~/.vscode .
 cp ~/.tmux.conf .
 
 #check git status
