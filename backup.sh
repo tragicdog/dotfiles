@@ -21,6 +21,7 @@ cp ~/.zshrc .
 cp ~/.vimrc .
 cp -r ~/.vscode .
 cp ~/.tmux.conf .
+cp -r ~/.oh-my-zsh
 
 #check git status
 gs="$(git status | grep -i "modified")"
