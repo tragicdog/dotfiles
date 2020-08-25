@@ -17,7 +17,10 @@ fi
 code --list-extensions --show-versions >> ../..vscode/extensions.txt
 
 #copy other dot files
-cp $HOME/{.zshrc, .vimrc, .vscode, .tmux.conf} .
+cp ~/.zshrc .
+cp ~/.vimrc .
+cp ~/.vscode .
+cp ~/.tmux.conf .
 
 #check git status
 gs="$(git status | grep -i "modified")"
