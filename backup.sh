@@ -10,9 +10,9 @@ else
 fi
 
 #copy VS_Code files
-p $HOME/Library/Application\ Support/Code/User/{keybindings.json,settings.json,spellright.dic} .
+#cp $HOME/Library/Application\ Support/Code/User/{keybindings.json,settings.json,spellright.dic} .
 
-cp -r $HOME/Library/Application\ Support/Code/User/snippets .
+#cp -r $HOME/Library/Application\ Support/Code/User/snippets .
 
 code --list-extensions --show-versions >> ../..vscode/extensions.txt
 
