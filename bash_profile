@@ -16,7 +16,6 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 alias ls="ls -aF"
 alias desktop="cd ~/Desktop"
 alias bash_profile="bbedit ~/.bash_profile"
-alias vps="ssh root@23.226.231.224"
 alias dns_flush="sudo killall -HUP mDNSResponder"
 
 #Vagrant
