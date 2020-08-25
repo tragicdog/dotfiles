@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 #check to see if git command line is installed in this machine
 IS_GIT_AVAILABLE="$(git --version)"
